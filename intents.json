@@ -1,0 +1,119 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hi there, what can I do for you?",
+        "Hey",
+        "Hello, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with GPay?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and GPay",
+        "We accept most major credit cards, and GPay"
+      ]
+    },
+    {
+      "tag": "cash_on_delivery",
+      "patterns": ["Is cash on delivery available?", "Can I pay cash on delivery?", "Payment options", "COD availability"],
+      "responses": [
+        "Yes, we offer cash on delivery (COD) as a payment option."
+      ]
+    },
+    {
+      "tag": "shipping_options",
+      "patterns": ["What are the shipping options?", "Shipping options", "How can I get my order delivered?", "Delivery options"],
+      "responses": [
+        "We offer standard and expedited shipping options. Standard shipping typically takes 3-7 days, while expedited shipping delivers within 2-3 days for an additional fee."
+      ]
+    },
+    {
+      "tag": "track_order",
+      "patterns": ["Can I track my order?", "Track order", "How do I track my order?", "Where is my package?"],
+      "responses": [
+        "Log in and check \"Order History.\""
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": ["What's your return policy?", "Return policy", "Can I return my order?", "Exchange or refund policy"],
+      "responses": [
+        "Returns within 7 days for a refund/exchange."
+      ]
+    },
+    {
+      "tag": "modify_order",
+      "patterns": ["Can I modify my order?", "Modify order", "Change order details", "Edit my order"],
+      "responses": [
+        "Sorry,Orders cannot be modified after placement."
+      ]
+    },
+    {
+      "tag": "business_hours",
+      "patterns": ["What are your business hours?", "Business hours", "When are you open?", "Customer service hours"],
+      "responses": [
+        "Our business hours are Mon-Sat from 10.00am to 10.00pm. Our customer support team is available during these hours to assist you with any queries or concerns you may have."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": ["How do I contact support?", "Contact support", "Need help", "Support contact"],
+      "responses": [
+        "You can contact support via phone(XXXXXXXXXX) or email(abc@gmail.com)"
+      ]
+    },
+    {
+      "tag": "food_expiration",
+      "patterns": [
+        "My food is about to expire in the next 2 days. What should I do?",
+        "How to handle food about to expire?",
+        "Expired food advice"
+      ],
+      "responses": [
+        "You can sell your products in offers like \"Buy one, get one free\" or offer discounts to encourage quick sales."
+      ]
+    }, 
+    {
+      "tag": "diwali_preparation",
+      "patterns": [
+        "Diwali is about to come. What should I do to tackle the crowd?",
+        "Preparing for Diwali rush",
+        "Handling crowd during Diwali season"
+      ],
+      "responses": [
+        "To manage the Diwali rush, increase billing capacity by adding more checkout counters, optimize staffing levels, offer pre-ordering options, and implement crowd management strategies."
+      ]
+    }
+  ]
+}
